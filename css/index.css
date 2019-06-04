@@ -1,10 +1,11 @@
 h1 {
-border: 2px solid rgb(238, 148, 132);
-  text-align: center;
-  color: rgb(0, 0, 0);
+  text-align: ;
+  color: deepskyblue;
+  background-image: url("https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg")
 }
-body {
-    background-color: #42afff;
+main {
+    background-image: url("https://i.ytimg.com/vi/pFci36HzZCo/maxresdefault.jpg");
+    background-repeat: no-repeat;
   }
-  
+
   
