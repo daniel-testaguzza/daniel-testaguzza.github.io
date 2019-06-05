@@ -1,11 +1,54 @@
 h1 {
   text-align: ;
-  color: deepskyblue;
-  background-image: url("https://cdn.pixabay.com/photo/2015/11/19/08/52/banner-1050629__340.jpg")
+  color: #f64c72;
 }
-main {
-    background-image: url("https://i.ytimg.com/vi/pFci36HzZCo/maxresdefault.jpg");
-    background-repeat: no-repeat;
-  }
 
-  
+ul.a {
+  list-style-type: circle;
+  color: white
+}
+
+/* Tabs */
+
+ul.info-tab {
+  list-style-type: none;
+  margin: 0;
+  padding: auto;
+  overflow: hidden;
+  background-color: darkblue
+}
+
+a.about-tab, about-tab:visited, a.home-tab, home-tab:visited, a.contact-tab, contact-tab:visited {
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+}
+
+a.home-tab:hover, a.about-tab:hover, a.contact-tab:hover {
+  color: white;
+  background-color: #f64c72;
+}
+
+a.home-tab, a.about-tab, a.contact-tab {
+  float: right
+}
+
+body.main-body {
+  background-color: #2f2fa2
+}
+
+a.back-to-top {
+  color: white
+}
+
+small.bottom-copy {
+  color: white
+}
+
+p.a {
+  color: white
+}
+
+/* Footer */
