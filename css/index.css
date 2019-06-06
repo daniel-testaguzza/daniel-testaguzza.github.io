@@ -1,42 +1,73 @@
+/* Header */
+
 h1 {
   text-align: ;
   color: #f64c72;
+  text-shadow: 2px 2px 7px #f64c72;
 }
 
-ul.a {
-  list-style-type: circle;
-  color: white
-}
-
-/* Tabs */
+/* Drop Tabs */
 
 ul.info-tab {
   list-style-type: none;
-  margin: 0;
+  border-radius: 25px;
+  background-color: darkblue;
   padding: auto;
-  overflow: hidden;
-  background-color: darkblue
+  height: 43px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(142, 168, 23, 0.19);
 }
 
-a.about-tab, about-tab:visited, a.home-tab, home-tab:visited, a.contact-tab, contact-tab:visited {
+a.about-tab, about-tab:visited, a.home-tab, home-tab:visited, a.contact-tab, contact-tab:visited, a.git-tab, git-tab:visited {
   padding: 12px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   color: white;
+  border-radius: 25px;
 }
 
-a.home-tab:hover, a.about-tab:hover, a.contact-tab:hover {
+a.home-tab:hover, a.about-tab:hover, a.contact-tab:hover, a.git-tab:hover {
   color: white;
   background-color: #f64c72;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-a.home-tab, a.about-tab, a.contact-tab {
+a.home-tab, a.about-tab, a.contact-tab, a.git-tab {
   float: right
 }
 
+/* main body */
+
 body.main-body {
-  background-color: #2f2fa2
+  background-color: #2f2fa2;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, #2f2fa2, rgb(110, 110, 29));
+}
+
+/* main */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+div.row {
+  color: white
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+
+footer {
+  background-color: darkblue;
+  padding: 10px;
+  text-align: center;
 }
 
 a.back-to-top {
@@ -46,9 +77,3 @@ a.back-to-top {
 small.bottom-copy {
   color: white
 }
-
-p.a {
-  color: white
-}
-
-/* Footer */
