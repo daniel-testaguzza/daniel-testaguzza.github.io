@@ -6,14 +6,15 @@
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   color: #f64c72;
   text-shadow: 2px 2px 7px #f64c72;
 }
 
 .header__image {
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   margin-bottom: 1rem;
   width: 10rem;
   display: block;
@@ -24,34 +25,36 @@ h1, h2 {
 /* Image */
 
 img {
-  width: 100%
+  width: 100%;
 }
 
 /* Drop Tabs */
 
-.info-tab {
+.info__tab {
   list-style-type: none;
   border-radius: 25px;
   background-color: #294936;
   padding: auto;
   height: 43px;
   margin-bottom: 1.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(142, 168, 23, 0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(142, 168, 23, 0.19);
 }
 
-.git-tab, git-tab:visited {
+.style__tab,
+git-tab:visited {
   padding: 12px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   color: white;
   border-radius: 25px;
-  float: right
+  float: right;
 }
 
-.git-tab:hover {
+.style-tab:hover {
   color: white;
-  background-color: #3E6259;
+  background-color: #3e6259;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -98,39 +101,34 @@ ul {
 }
 
 .main-body {
-  background-color: #D1DEDE;
+  background-color: #d1dede;
   /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom, #AEF6C7, rgb(145, 145, 55));
+  background-image: linear-gradient(to bottom, #aef6c7, rgb(145, 145, 55));
 }
 
 body {
   padding: 1rem;
 }
 
-p, li {
+p,
+li {
   line-height: 1.618;
 }
 
 /* main */
 
 .main {
-  text-align: center
+  text-align: center;
 }
 
 /* Footer */
 
 footer {
-  background-color: #1D201F;
+  background-color: #1d201f;
   padding: 30px;
   text-align: center;
-}
-
-a.back-to-top {
-  color: white
-}
-
-small.bottom-copy {
-  color: white
+  margin: 0 auto;
+  color: white;
 }
 
 .container {
