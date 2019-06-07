@@ -1,0 +1,139 @@
+/* Header */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #f64c72;
+  text-shadow: 2px 2px 7px #f64c72;
+}
+
+.header__image {
+  border-radius: .25rem;
+  margin-bottom: 1rem;
+  width: 10rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Image */
+
+img {
+  width: 100%
+}
+
+/* Drop Tabs */
+
+.info-tab {
+  list-style-type: none;
+  border-radius: 25px;
+  background-color: #294936;
+  padding: auto;
+  height: 43px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(142, 168, 23, 0.19);
+}
+
+.git-tab, git-tab:visited {
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  border-radius: 25px;
+  float: right
+}
+
+.git-tab:hover {
+  color: white;
+  background-color: #3E6259;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* main body */
+
+.about__title {
+  margin-bottom: 1.5rem;
+}
+
+.about__content {
+  margin-bottom: 1.5rem;
+}
+
+.skills__title {
+  margin-bottom: 1.5rem;
+}
+
+.skills-sub__content {
+  margin-bottom: 1.5rem;
+}
+
+.skills-sub__title {
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.other__title {
+  margin-bottom: 1.5rem;
+}
+
+.other__content {
+  margin-bottom: 1.5rem;
+}
+
+.contact__title {
+  margin-bottom: 1.5rem;
+}
+
+.contact__content {
+  margin-bottom: 1.5rem;
+}
+
+.main-body {
+  background-color: #D1DEDE;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, #AEF6C7, rgb(145, 145, 55));
+}
+
+body {
+  padding: 1rem;
+}
+
+p, li {
+  line-height: 1.618;
+}
+
+/* main */
+
+.main {
+  text-align: center
+}
+
+/* Footer */
+
+footer {
+  background-color: #1D201F;
+  padding: 30px;
+  text-align: center;
+}
+
+a.back-to-top {
+  color: white
+}
+
+small.bottom-copy {
+  color: white
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 35rem;
+}
