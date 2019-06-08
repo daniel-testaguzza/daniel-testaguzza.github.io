@@ -60,34 +60,38 @@ git-tab:visited {
 
 /* main body */
 
-.about__title {
+.projects__title {
   margin-bottom: 1.5rem;
-  font-size: 30px;
+  font-size: 40px;
   color: darkblue;
 }
 
-.about__content {
+.projects__content {
   margin-bottom: 1.5rem;
+  font-size: 20px;
+  color: darkslategray;
 }
 
-.beau-image__title {
-  margin-bottom: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: darkblue;
-}
-
-.beau-content__image {
-  margin-bottom: 1.5rem;
+ul {
+  list-style-type: none;
 }
 
 .contact__title {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-size: 30px;
   color: darkblue;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.contact__email {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  color: darkgreen;
 }
 
 .contact__content {
   margin-bottom: 1.5rem;
+  font-size: 20px;
+  color: darkgreen;
 }
 
 .main-body {
@@ -100,7 +104,6 @@ body {
   padding: 1rem;
 }
 
-p,
 li {
   line-height: 1.618;
 }

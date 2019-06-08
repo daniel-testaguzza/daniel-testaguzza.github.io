@@ -6,7 +6,8 @@
   padding: 0;
 }
 
-h1, h2 {
+h1,
+h2 {
   text-align: center;
   color: #f64c72;
   text-shadow: 2px 2px 7px #f64c72;
@@ -36,10 +37,12 @@ img {
   padding: auto;
   height: 45px;
   margin-bottom: 1.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(142, 168, 23, 0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(142, 168, 23, 0.19);
 }
 
-.style__tab, git-tab:visited {
+.style__tab,
+git-tab:visited {
   padding: 13px 10px;
   text-align: center;
   text-decoration: none;
@@ -66,7 +69,7 @@ img {
 .skills__content {
   margin-bottom: 1.5rem;
   font-size: 20px;
-  color: darkslategray
+  color: darkslategray;
 }
 
 .skills-sub__title {
@@ -80,11 +83,20 @@ ul {
 }
 
 .contact__title {
+  font-size: 30px;
+  color: darkblue;
   margin-bottom: 1.5rem;
+}
+.contact__email {
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+  color: darkgreen;
 }
 
 .contact__content {
   margin-bottom: 1.5rem;
+  font-size: 20px;
+  color: darkgreen;
 }
 
 .main-body {
@@ -97,7 +109,8 @@ body {
   padding: 1rem;
 }
 
-p, li {
+p,
+li {
   line-height: 1.618;
 }
 
@@ -128,25 +141,29 @@ footer {
   .info__tab {
     height: 50px;
   }
-  .style__tab, git-tab:visited {
+  .style__tab,
+  git-tab:visited {
     padding: 16px 15px;
   }
 }
 
 @media (min-width: 560px) {
-  .style__tab, git-tab:visited {
+  .style__tab,
+  git-tab:visited {
     padding: 16px 20px;
   }
 }
 
 @media (min-width: 660px) {
-  .style__tab, git-tab:visited {
+  .style__tab,
+  git-tab:visited {
     padding: 16px 25px;
   }
 }
 
 @media (min-width: 760px) {
-  .style__tab, git-tab:visited {
+  .style__tab,
+  git-tab:visited {
     padding: 16px 30px;
   }
 }
@@ -155,7 +172,8 @@ footer {
   .info__tab {
     height: 60px;
   }
-  .style__tab, git-tab:visited {
+  .style__tab,
+  git-tab:visited {
     padding: 21px 40px;
   }
 }
