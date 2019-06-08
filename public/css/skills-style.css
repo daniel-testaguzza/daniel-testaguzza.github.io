@@ -6,8 +6,7 @@
   padding: 0;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
   color: #f64c72;
   text-shadow: 2px 2px 7px #f64c72;
@@ -30,20 +29,18 @@ img {
 
 /* Drop Tabs */
 
-.info-tab {
+.info__tab {
   list-style-type: none;
   border-radius: 25px;
   background-color: #294936;
   padding: auto;
-  height: 43px;
+  height: 45px;
   margin-bottom: 1.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(142, 168, 23, 0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(142, 168, 23, 0.19);
 }
 
-.git-tab,
-git-tab:visited {
-  padding: 12px 25px;
+.style__tab, git-tab:visited {
+  padding: 13px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -52,7 +49,7 @@ git-tab:visited {
   float: right;
 }
 
-.git-tab:hover {
+.style__tab:hover {
   color: white;
   background-color: #3e6259;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -60,36 +57,26 @@ git-tab:visited {
 
 /* main body */
 
-.about__title {
-  margin-bottom: 1.5rem;
-}
-
-.about__content {
-  margin-bottom: 1.5rem;
-}
-
 .skills__title {
   margin-bottom: 1.5rem;
+  font-size: 40px;
+  color: darkblue;
 }
 
-.skills-sub__content {
+.skills__content {
   margin-bottom: 1.5rem;
+  font-size: 20px;
+  color: darkslategray
 }
 
 .skills-sub__title {
   margin-bottom: 1.5rem;
+  font-size: 30px;
+  color: darkgreen;
 }
 
 ul {
   list-style-type: none;
-}
-
-.other__title {
-  margin-bottom: 1.5rem;
-}
-
-.other__content {
-  margin-bottom: 1.5rem;
 }
 
 .contact__title {
@@ -110,8 +97,7 @@ body {
   padding: 1rem;
 }
 
-p,
-li {
+p, li {
   line-height: 1.618;
 }
 
@@ -134,4 +120,42 @@ footer {
 .container {
   margin: 0 auto;
   max-width: 35rem;
+}
+
+/* Media */
+
+@media (min-width: 460px) {
+  .info__tab {
+    height: 50px;
+  }
+  .style__tab, git-tab:visited {
+    padding: 16px 15px;
+  }
+}
+
+@media (min-width: 560px) {
+  .style__tab, git-tab:visited {
+    padding: 16px 20px;
+  }
+}
+
+@media (min-width: 660px) {
+  .style__tab, git-tab:visited {
+    padding: 16px 25px;
+  }
+}
+
+@media (min-width: 760px) {
+  .style__tab, git-tab:visited {
+    padding: 16px 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .info__tab {
+    height: 60px;
+  }
+  .style__tab, git-tab:visited {
+    padding: 21px 40px;
+  }
 }
