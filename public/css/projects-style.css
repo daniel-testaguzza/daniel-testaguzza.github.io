@@ -13,13 +13,36 @@ h2 {
   text-shadow: 2px 2px 7px #f64c72;
 }
 
+.main__header {
+  padding: 40px;
+  text-align: center;
+  background: darkorange;
+  color: white;
+  background-image: linear-gradient(to top, #aef6c7, rgb(145, 145, 55));
+}
+
 .header__image {
-  border-radius: 0.25rem;
+  border-radius: 0.5rem;
   margin-bottom: 1rem;
-  width: 10rem;
+  width: 15rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 25%;
+  padding: 20px;
 }
 
 /* Image */
@@ -27,12 +50,14 @@ h2 {
 img {
   width: 100%;
 }
+.high-st-hospital-2 {
+  width: 800px;
+}
 
 /* Drop Tabs */
 
 .info__tab {
   list-style-type: none;
-  border-radius: 25px;
   background-color: #294936;
   padding: auto;
   height: 45px;
@@ -63,6 +88,11 @@ git-tab:visited {
 .projects__title {
   margin-bottom: 1.5rem;
   font-size: 40px;
+  color: darkblue;
+}
+.project-sub__title {
+  margin-bottom: 1rem;
+  font-size: 20px;
   color: darkblue;
 }
 
@@ -96,22 +126,11 @@ ul {
 
 .main-body {
   background-color: #d1dede;
-  /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom, #aef6c7, rgb(145, 145, 55));
-}
-
-body {
-  padding: 1rem;
 }
 
 li {
   line-height: 1.618;
-}
-
-/* main */
-
-.main {
-  text-align: center;
 }
 
 /* Footer */
