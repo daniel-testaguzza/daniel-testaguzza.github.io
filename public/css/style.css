@@ -1,9 +1,172 @@
+/* Header */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+h1, h2 {
+  text-align: center;
+  color: #42afff;
+  text-shadow: 2px 2px 7px #42afff;
+}
+
+.main__header {
+  padding: 40px;
+  text-align: center;
+  background: darkorange;
+  color: white;
+  background-image: linear-gradient(to top, #0f5b24, rgb(145, 145, 55));
+}
+
+.header__image {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  width: 15rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+
+/* Image */
+
 img {
-  max-height: 50rem;
+  width: 100%;
+}
+
+/* Drop Tabs */
+
+.info__tab {
+  list-style-type: none;
+  background-color: #294936;
+  padding: auto;
+  height: 45px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(142, 168, 23, 0.19);
+}
+
+.style__tab, git-tab:visited {
+  padding: 13px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  border-radius: 25px;
+  float: right;
+}
+
+.style__tab:hover {
+  color: white;
+  background-color: #3e6259;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* main body */
+
+.about__title {
+  margin-bottom: 1.5rem;
+  font-size: 30px;
+  color: darkblue;
+}
+
+.about__content {
+  margin-bottom: 1.5rem;
+}
+
+.more__title {
+  color: darkblue;
+  font-size: 25px;
+}
+
+.beau-image__title {
+  margin-bottom: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+}
+
+.beau-content__image {
+  margin-bottom: 1.5rem;
+}
+
+.contact__title {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: darkblue;
+}
+
+.contact__content {
+  margin-bottom: 1.5rem;
+}
+
+.main-body {
+  background-color: #d1dede;
+  background-image: linear-gradient(to bottom, #0f5b24, rgb(145, 145, 55));
+}
+
+p, li {
+  line-height: 1.618;
+}
+
+/* main */
+
+.main {
+  text-align: center;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1d201f;
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+  color: white;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 35rem;
+}
+
+/* Media */
+
+@media (min-width: 460px) {
+  .info__tab {
+    height: 50px;
+  }
+  .style__tab, git-tab:visited {
+    padding: 16px 15px;
+  }
+}
+
+@media (min-width: 560px) {
+  .style__tab, git-tab:visited {
+    padding: 16px 20px;
+  }
+}
+
+@media (min-width: 660px) {
+  .style__tab, git-tab:visited {
+    padding: 16px 25px;
+  }
+}
+
+@media (min-width: 760px) {
+  .style__tab, git-tab:visited {
+    padding: 16px 30px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .info__tab {
+    height: 60px;
+  }
+  .style__tab, git-tab:visited {
+    padding: 21px 40px;
+  }
 }
