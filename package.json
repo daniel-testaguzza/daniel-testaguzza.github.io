@@ -11,7 +11,7 @@
     "jest": "^24.8.0"
   },
   "scripts": {
-    "test": "jest --colors",
+    "test": "jest --colors --coverage",
     "start": "parcel index.html"
   },
   "repository": {

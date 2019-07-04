@@ -1,12 +1,17 @@
 class Components {
-    createElement(elementType) {
-        if (!elementType) {
-            throw new Error('Must pass valid HTML Element')
-        }
 
-        const createdElement = document.createElement(elementType)
-        return createdElement
-    }
-    
+}
+
 module.exports = Components
 
+
+
+
+
+// function openNav() {
+//   document.getElementById("nav__side-panel").style.width = "250px";
+// }
+
+// function closeNav() {
+//   document.getElementById("nav__side-panel").style.width = "0";
+// }

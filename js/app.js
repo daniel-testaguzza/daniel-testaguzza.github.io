@@ -1,1 +1,2 @@
-const Navigation = require("../js/utils/navigation");
+const Components = require("./utils/components");
+const Events = require("./utils/events");

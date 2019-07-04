@@ -118,25 +118,14 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   return newRequire;
 })({"js/utils/components.js":[function(require,module,exports) {
-function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
 
-var Components = function Components() {
-  _classCallCheck(this, Components);
-};
-
-module.exports = Components; // function openNav() {
-//   document.getElementById("nav__side-panel").style.width = "250px";
-// }
-// function closeNav() {
-//   document.getElementById("nav__side-panel").style.width = "0";
-// }
-},{}],"js/utils/events.js":[function(require,module,exports) {
-
-},{}],"js/app.js":[function(require,module,exports) {
-var Components = require("./utils/components");
-
-var Events = require("./utils/events");
-},{"./utils/components":"js/utils/components.js","./utils/events":"js/utils/events.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -339,5 +328,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/app.js"], null)
-//# sourceMappingURL=/app.c3f9f951.js.map
+},{}]},{},["node_modules/parcel-bundler/src/builtins/hmr-runtime.js","js/utils/components.js"], null)
+//# sourceMappingURL=/components.1a0a64d9.js.map

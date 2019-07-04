@@ -16,14 +16,16 @@
    <a name="home"></a>
       <div class="header__container">
          <nav class="nav__overlay">
-            <ul class="nav__content">
+            <ul id="nav__side-panel" class="nav__side">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
                <a href="#home">Home</a>
                <a href="#projects">Projects</a>
                <a href="#skills">Skills</a>
                <a href="#contact">Contact</a>
             </ul>
+            <button class="nav__close-nav">☰ Menu</button> 
          </nav>
-         <header class="header__main">
+         <header class="header__main main-header" >
             <img class="header__image" src="public\pictures\beau-and-me2.jpg" alt="temp" />
             <h1 class="header__title">Daniel Testaguzza</h1>
             <h2 class="sub-header__title">JS FullStack/Apprentice</h2>
@@ -90,7 +92,7 @@
    <footer>
       <small>&copy;2019 Daniel Testaguzza</small>
    </footer>
+   <script src="./js/app.js"></script>
 </body>
-<script src="./js/app.js"></script>
 
 </html>
