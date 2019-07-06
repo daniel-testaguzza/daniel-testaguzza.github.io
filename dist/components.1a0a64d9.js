@@ -119,12 +119,14 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   return newRequire;
 })({"js/utils/components.js":[function(require,module,exports) {
 function openNav() {
-  document.getElementById("mySidepanel").style.width = "250px";
+  document.getElementById("nav__side-panel").style.width = "250px";
 }
 
 function closeNav() {
-  document.getElementById("mySidepanel").style.width = "0";
+  document.getElementById("nav__side-panel").style.width = "0";
 }
+
+module.exports = Components;
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -153,7 +155,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58535" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61283" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
