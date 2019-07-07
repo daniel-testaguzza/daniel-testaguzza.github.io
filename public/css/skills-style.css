@@ -6,19 +6,18 @@
   padding: 0;
 }
 
-h1,
-h2 {
+h1, h2 {
   text-align: center;
   color: #f64c72;
   text-shadow: 2px 2px 7px #f64c72;
 }
 
 .main__header {
-  padding: 40px;
+  padding: 507px;
   text-align: center;
   background: darkorange;
   color: white;
-  background-image: linear-gradient(to top, #aef6c7, rgb(145, 145, 55));
+  background-image: url(../pictures/header-background.jpg)
 }
 
 .header__image {
@@ -40,33 +39,27 @@ img {
   width: 100%;
 }
 
-/* Drop Tabs */
+/* Navigation Tabs */
 
-.info__tab {
-  list-style-type: none;
-  background-color: #294936;
-  padding: auto;
-  height: 45px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-    0 6px 20px 0 rgba(142, 168, 23, 0.19);
+.nav__list {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
 }
 
-.style__tab,
-git-tab:visited {
-  padding: 13px 10px;
+.nav__list a {
+  float: left;
+  display: block;
+  color: white;
   text-align: center;
+  padding: 15px;
   text-decoration: none;
-  display: inline-block;
-  color: white;
-  border-radius: 25px;
-  float: right;
 }
 
-.style__tab:hover {
-  color: white;
-  background-color: #3e6259;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.nav__list a:hover {
+  background-color: #ddd;
+  color: black;
 }
 
 /* main body */
@@ -98,6 +91,7 @@ ul {
   color: darkblue;
   margin-bottom: 1.5rem;
 }
+
 .contact__email {
   margin-bottom: 1.5rem;
   font-size: 20px;
@@ -115,8 +109,7 @@ ul {
   background-image: linear-gradient(to bottom, #aef6c7, rgb(145, 145, 55));
 }
 
-p,
-li {
+p, li {
   line-height: 1.618;
 }
 
@@ -147,29 +140,25 @@ footer {
   .info__tab {
     height: 50px;
   }
-  .style__tab,
-  git-tab:visited {
+  .style__tab, git-tab:visited {
     padding: 16px 15px;
   }
 }
 
 @media (min-width: 560px) {
-  .style__tab,
-  git-tab:visited {
+  .style__tab, git-tab:visited {
     padding: 16px 20px;
   }
 }
 
 @media (min-width: 660px) {
-  .style__tab,
-  git-tab:visited {
+  .style__tab, git-tab:visited {
     padding: 16px 25px;
   }
 }
 
 @media (min-width: 760px) {
-  .style__tab,
-  git-tab:visited {
+  .style__tab, git-tab:visited {
     padding: 16px 30px;
   }
 }
@@ -178,8 +167,7 @@ footer {
   .info__tab {
     height: 60px;
   }
-  .style__tab,
-  git-tab:visited {
+  .style__tab, git-tab:visited {
     padding: 21px 40px;
   }
 }
