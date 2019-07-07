@@ -1,36 +1,30 @@
-/* Header */
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5, p {
   text-align: center;
-  color: #f64c72;
-  text-shadow: 2px 2px 7px #f64c72;
+  color: lime;
 }
+
+a {
+  text-decoration: none;
+}
+
+/* header */
 
 .main__header {
-  padding: 507px;
+  padding: 560px;
   text-align: center;
-  background: darkorange;
-  color: white;
-  background-image: url(../pictures/header-background.jpg)
+  background: black;
+  background-image: url(../pictures/header-background.jpg);
+  height: 100%;
 }
 
-.header__image {
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  width: 15rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  -webkit-border-radius: 0.5rem;
-  -moz-border-radius: 0.5rem;
-  -ms-border-radius: 0.5rem;
-  -o-border-radius: 0.5rem;
+.header__title {
+  font-size: 8rem;
 }
 
 .row {
@@ -38,9 +32,6 @@ h1, h2 {
   flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-
-/* Sidebar/left column */
 
 .side {
   flex: 25%;
@@ -85,19 +76,11 @@ img {
 .projects__title {
   margin-bottom: 1.5rem;
   font-size: 40px;
-  color: darkblue;
-}
-
-.project-sub__title {
-  margin-bottom: 1rem;
-  font-size: 20px;
-  color: darkblue;
 }
 
 .projects__content {
   margin-bottom: 1.5rem;
   font-size: 20px;
-  color: darkslategray;
 }
 
 ul {
@@ -106,7 +89,6 @@ ul {
 
 .contact__title {
   font-size: 30px;
-  color: darkblue;
   margin-bottom: 1.5rem;
   margin-top: 1.5rem;
 }
@@ -114,23 +96,41 @@ ul {
 .contact__email {
   margin-bottom: 1.5rem;
   font-size: 20px;
-  color: darkgreen;
 }
 
 .contact__content {
   margin-bottom: 1.5rem;
   font-size: 20px;
-  color: darkgreen;
 }
 
 .main-body {
-  background-color: #d1dede;
-  background-image: linear-gradient(to bottom, #aef6c7, rgb(145, 145, 55));
+  background-color: #101010;
 }
 
 li {
   line-height: 1.618;
 }
+
+.main {
+  margin-top: 3rem;
+}
+
+/* project */
+
+.sub__title {
+  margin-bottom: 3rem;
+  font-size: 2rem
+}
+
+.project__link {
+  margin-bottom: 2rem;
+}
+
+.project__section {
+  padding: 1rem
+}
+
+
 
 /* Footer */
 
@@ -142,45 +142,78 @@ footer {
   color: white;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: 35rem;
-}
-
 /* Media */
 
-@media (min-width: 460px) {
-  .info__tab {
-    height: 50px;
+@media (min-width: 360px) {
+  .main__header {
+    padding: 30px;
+    background-size: auto;
   }
-  .style__tab, git-tab:visited {
-    padding: 16px 15px;
+  /* nav */
+  .nav__list a {
+    padding: 10px;
+  }
+  .header__title {
+    font-size: 4rem;
+  }
+  /* projects */
+  .sub__title {
+    margin-bottom: 3rem;
+    font-size: 2rem
+  }
+  .project__container {
+    display: unset;
+    grid-template-columns: 100% 100%;
   }
 }
 
-@media (min-width: 560px) {
-  .style__tab, git-tab:visited {
-    padding: 16px 20px;
-  }
+  
+@media (min-width: 600px) {
+  .main__header {
+    padding: 100px;
+ }
+
 }
 
-@media (min-width: 660px) {
-  .style__tab, git-tab:visited {
-    padding: 16px 25px;
-  }
-}
+@media (min-width: 800px) {
+  .main__header {
+    padding: 150px;
+ }
 
-@media (min-width: 760px) {
-  .style__tab, git-tab:visited {
-    padding: 16px 30px;
-  }
 }
 
 @media (min-width: 1000px) {
-  .info__tab {
-    height: 60px;
-  }
-  .style__tab, git-tab:visited {
-    padding: 21px 40px;
+  .main__header {
+    padding: 300px;
+ }
+ .project__container {
+  margin: 0 auto;
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  justify-content: center;
+}
+
+}
+
+@media (min-width: 1200px) {
+  .main__header {
+    padding: 350px;
+ }
+
+}
+
+@media (min-width: 1900px) {
+  .main__header {
+    padding: 560px;
+    text-align: center;
+    background: black;
+    background-image: url(../pictures/header-background.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
+  
