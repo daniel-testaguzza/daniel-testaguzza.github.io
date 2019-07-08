@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0.5rem;
+  margin: 0;
+}
+
+li,
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #181a1b;
+}
+
+/* Navigation */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: white;
+  color: black;
+}
