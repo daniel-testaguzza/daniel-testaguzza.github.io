@@ -15,13 +15,13 @@ body {
 
 /* Navigation */
 
-.navbar {
+.nav__list {
   position: fixed;
   top: 0;
   transition: top 0.5s;
 }
 
-.navbar a {
+.nav__list a {
   float: left;
   display: block;
   color: white;
@@ -30,7 +30,7 @@ body {
   text-decoration: none;
 }
 
-.navbar a:hover {
+.nav__list a:hover {
   background-color: white;
   color: black;
 }

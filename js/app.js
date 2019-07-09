@@ -1,10 +1,11 @@
+// Navigation Drop Down on Scroll
 const Scroll = window.page;
 window.onscroll = function() {
-  const currentScrollPos = window.pageYOffset;
-  if (scroll > currentScrollPos) {
-    document.querySelector(".navbar").style.top = "0";
+  const currentScrollPosition = window.pageYOffset;
+  if (scroll > currentScrollPosition) {
+    document.querySelector(".nav__list").style.top = "0";
   } else {
-    document.querySelector(".navbar").style.top = "-50px";
+    document.querySelector(".nav__list").style.top = "-55px";
   }
-  scroll = currentScrollPos;
+  scroll = currentScrollPosition;
 };
