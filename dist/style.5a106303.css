@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  padding: 0.5rem;
+  padding: 0;
   margin: 0;
 }
 
@@ -33,6 +33,23 @@ body {
 .nav__list a:hover {
   background-color: white;
   color: black;
+}
+
+/* Header */
+
+.header__main {
+  background-image: url(/header13.6facb924.jpg);
+  height: 30rem;
+  color: white;
+  text-align: center;
+}
+
+/* Main */
+
+.main {
+  box-sizing: border-box;
+  padding: 3rem;
+  margin: 0;
 }
 
 /*# sourceMappingURL=/style.5a106303.css.map */
