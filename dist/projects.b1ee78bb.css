@@ -1,0 +1,82 @@
+* {
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+li,
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #181a1b;
+}
+
+/* Navigation */
+
+.nav__list {
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+}
+
+.nav__list a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.nav__list a:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Header */
+
+.header__main {
+  background-image: url(/header13.6facb924.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50rem;
+  color: white;
+  text-align: center;
+  padding: 12rem 0;
+}
+
+.header__name {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.header__sub-name {
+  font-size: 2rem;
+}
+
+.header__projects-title {
+  margin-top: 10rem;
+  font-size: 2rem;
+}
+
+/* Main */
+
+.main__projects {
+  box-sizing: border-box;
+  padding: 3rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgb(15, 15, 15);
+  color: white;
+  text-align: center;
+  padding: 3rem;
+}
+
+
+/*# sourceMappingURL=/projects.b1ee78bb.css.map */
