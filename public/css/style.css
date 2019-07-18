@@ -108,6 +108,17 @@ body {
   list-style: none;
 }
 
+/* projects section */
+
+.project__container {
+  margin: 0 auto;
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  justify-content: center;
+}
+
 /* Contact Section */
 
 .contact__section {

@@ -65,8 +65,12 @@ body {
 /* Main */
 
 .main__projects {
-  box-sizing: border-box;
-  padding: 3rem;
+  margin: 0 auto;
+  max-width: 100rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  justify-content: center;
 }
 
 /* Footer */
