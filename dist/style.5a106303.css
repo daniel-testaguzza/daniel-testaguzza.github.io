@@ -114,9 +114,18 @@ body {
   margin: 0 auto;
   max-width: 100rem;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-gap: 50px;
+  grid-template-columns: auto;
   text-align: center;
   justify-content: center;
+}
+
+.project__section {
+  background-color: rgba(197, 194, 194, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
 /* Contact Section */
